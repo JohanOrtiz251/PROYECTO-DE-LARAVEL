@@ -314,7 +314,7 @@ return [
         ],
         [
             'text' => 'Inicio',
-            'url' => 'admin/pages',
+            'url' => 'admin/dashboard',
             'icon' => ' fas fa-home',
             'label_color' => 'success',
             
