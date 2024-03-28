@@ -1,0 +1,47 @@
+.sidebar {
+    background-color: #1D1D42;
+}
+.main-sidebar {
+    background-color: #1D1D42; /* Cambia el color de fondo a gris oscuro */
+}
+
+/* Estilos para los elementos de menú */
+.nav-sidebar {
+    margin-top: 30px;
+     /* Ajusta el espacio superior para mover las opciones hacia abajo */
+
+}
+
+.sidebar .nav-item {
+    padding: 0px; /* Ajusta el espacio alrededor de cada elemento del sidebar */
+    font-size: 14px; /* Cambia el tamaño del texto de los elementos del sidebar */
+}
+
+/* Agrega un margen derecho al ícono para separarlo del texto */
+
+
+
+
+#cerrar-sesion {
+    position: relative; /* Hace que el posicionamiento sea relativo */
+    margin-top: 600px; /* Coloca el elemento casi al final del sidebar */
+    text-align: center; /* Centra horizontalmente el contenido */
+}
+
+#copyright{
+    position: relative;
+    text-align: center;
+    padding-top: 30px;
+    color: #424261;
+}
+
+.content-header .title{
+    margin-top: 20px;
+    font-size: 32px;
+    color: black;
+}
+
+.parrafo {
+    font-size: 20px;
+    color: black;
+}
