@@ -321,7 +321,7 @@ return [
         ],
         [
             'text' => 'Recolectas',
-            'url' => 'admin/pages',
+            'url' => 'admin/recolectas',
             'icon' => 'fas fa-seedling',
             
             'label_color' => 'success',

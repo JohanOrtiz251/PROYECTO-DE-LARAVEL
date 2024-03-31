@@ -16,7 +16,17 @@ Route::group(['middleware' => 'web'], function () {
 });
 
 Route::group(['middleware' => ['auth', 'role:admin'], 'prefix' => 'admin', 'as' => 'admin.'], function () {
-    Route::get('/dashboard', [AdminController::class, 'admin'])->name('dashboard'); // Corregir el nombre de la ruta a 'dashboard'
+    Route::get('/dashboard', [AdminController::class, 'admin'])->name('dashboard');
+    Route::get('/recolectar', [AdminController::class, 'recolectas'])->name('recolectas');
+    Route::post('/store', [AdminController::class,'crear'])->name('crearr');
+    Route::get('/recolectas', [AdminController::class,'mostrar'])->name('mostrarr');
+    Route::get('/edit/{recolecta}', [AdminController::class,'edit'])->name('edit');
+    Route::put('/update/{recolecta}', [AdminController::class,'update'])->name('update');
+    Route::delete('/delete/{recolecta}', [AdminController::class, 'destroy'])->name('delete');
+
+
+
+    
 });
 
 
