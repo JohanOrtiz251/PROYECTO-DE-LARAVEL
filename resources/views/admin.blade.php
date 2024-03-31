@@ -8,16 +8,18 @@
 @stop
 
 @section('content')
-    <div class="row">
-        <div class="col-12">
-            <div class="card">
-                <div class="card-body">
-                    <p class="mb-0">You are logged in!</p>
-                </div>
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <p class="mb-0">You are logged in!</p>
+                <a href="{{ route('ingresar_empleado') }}" class="btn btn-primary mt-3">Ir a la vista de ingreso de empleados</a>
             </div>
         </div>
     </div>
+</div>
 @stop
+
 
 @section('css')
     <link rel="stylesheet" href="{{ asset('assets/css/menu.css') }}">

@@ -37,3 +37,6 @@ Route::group(['middleware' => ['auth', 'role:gerente'], 'prefix' => 'gerente', '
 Auth::routes();
 
 
+Route::get('/ingresar-empleado', function () {
+    return view('vistas_admin.ingresar_empleado');
+})->name('ingresar_empleado');
